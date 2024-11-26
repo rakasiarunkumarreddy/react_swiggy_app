@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    justify-content: space-between ;
+    border: 1px solid black;
+    padding:0.5%;
+    margin: 0px;
+    background-color: aquamarine;
+}
+.button{
+    padding:2px,
+    margin:2px,
+    display:flex,
+    
+
+}
+.logo {
+    width: 10%;
+    height: 80px;
+}
+.list>ul {
+    display: flex;
+    list-style-type:none;
+}
+.list>ul>li{
+    padding: 1%;
+    margin: 15px;
+}
+.food{
+    height: 100px;
+    width: 150px;
+}
+.res-card {
+   
+    padding: 5px;
+    width:150px;
+    height:350px;
+    margin:3px;
+  background-color: darkgrey;    
+}
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+.res-card:hover{
+    border: 1px solid black;
+    cursor:pointer;
+}
+
+.footer {
+    border: 1px solid black;
+    display: flex;
+    margin: 5px;
+    background-color: aquamarine;
+}
+.footer>address{
+    display: flex;
+
+}
+.filter-btn {
+    margin: 10px;
+    cursor: pointer;
+}
+.upper{
+    display:flex
+}
+.search {
+    margin:10px;
+    cursor:pointer
+}

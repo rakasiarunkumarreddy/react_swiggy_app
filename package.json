@@ -1,0 +1,32 @@
+{
+  "homepage": "https://rakasiarunkumarreddy.github.io/react_swiggy",
+  "name": "react",
+  "version": "1.0.0",
+  "description": "a react project",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakasiarunkumarreddy/react.git"
+  },
+  "keywords": [],
+  "author": "arun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakasiarunkumarreddy/react/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1"
+  }
+}
